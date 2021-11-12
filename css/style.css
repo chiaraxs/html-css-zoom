@@ -17,6 +17,12 @@ img{
     background-color: black;
 }
 
+span{
+    color: white;
+    font-size: 15px;
+    margin: 5px;
+}
+
 /* HEADER E NAVBAR */
 header{
     width: 100%;
@@ -81,5 +87,20 @@ footer{
 .foot-left, .foot-central, .foot-right{
     width: 200px;
     height: 80px;
-    background-color: green;
+    
+}
+
+.buttom{
+    margin: 5px;
+}
+.icon-image{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.fa-chevron-up{
+    font-size: 8px;
+    margin-top: 20px;
 }
