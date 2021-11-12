@@ -84,15 +84,29 @@ footer{
     justify-content: space-between;
 }
 
-.foot-left, .foot-central, .foot-right{
+.foot-left, .foot-right{
     width: 200px;
     height: 80px;
-    
+}
+
+.foot-central{
+    flex-grow: 1;
+    height: 80px;
+    justify-content: center;
+}
+
+.foot-right{
+    width: 150px;
+    background-color: rgb(150, 150, 150);
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
 }
 
 .buttom{
     margin: 5px;
 }
+
 .icon-image{
     text-align: center;
     color: white;
@@ -103,4 +117,13 @@ footer{
 .fa-chevron-up{
     font-size: 8px;
     margin-top: 20px;
+}
+
+.fa-share-square{
+    color: green;
+}
+
+.foot-right p{
+    color: red;
+    text-align: center;
 }
