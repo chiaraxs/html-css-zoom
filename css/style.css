@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-.container{
+.page{
     height: 100vh;
     background-color: black;
-
 }
 
 header{
@@ -20,6 +19,10 @@ header{
 .flex{
     display: flex;
 } 
+
+img{
+    width: 100%;
+}
 
 .nav-right{
     width: 300px;
@@ -36,3 +39,31 @@ header{
     margin: 5px;
     border-radius: 5px;
 }
+
+.container-img{
+    position: relative;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+
+.user{
+    width: 200px;
+    position: relative;
+}
+
+.user .img{
+    margin: 0 5px;
+}
+
+.name-mute{
+    position: absolute;
+    top: 90px;
+    background-color: gray;
+    color: white;
+    font-size: 10px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+} 
